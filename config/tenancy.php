@@ -19,6 +19,7 @@ return [
     'central_domains' => [
         '127.0.0.1',
         'localhost',
+        'multitenancy.test',
     ],
 
     /**
@@ -51,7 +52,7 @@ return [
          * Tenant database names are created like this:
          * prefix + tenant_id + suffix.
          */
-        'prefix' => 'tenant',
+        'prefix' => 'multitenancy_with_me_for_test_',
         'suffix' => '',
 
         /**
